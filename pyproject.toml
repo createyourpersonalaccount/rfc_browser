@@ -13,6 +13,11 @@ requires-python = ">=3"
 license = { text = "GPL-3.0-or-later" }
 version = "1.0.0"
 
+dependencies = [
+    "networkx >= 3",
+    "pygraphviz",
+]
+
 [project.optional-dependencies]
 tests = [
     "pytest",
