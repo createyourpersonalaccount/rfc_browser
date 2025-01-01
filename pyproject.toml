@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rfc_browser"
+authors = [
+    { name = "Nikolaos Chatzikonstantinou", email = "nchatz314@gmail.com" },
+]
+description = "A significant figures Python3 module."
+readme = "README.md"
+requires-python = ">=3"
+license = { text = "GPL-3.0-or-later" }
+version = "1.0.0"
+
+[project.optional-dependencies]
+tests = [
+    "pytest",
+]
+
+[tool.pytest.ini_options]
+minversion = "3.0"
+testpaths = [
+    "tests",
+]
