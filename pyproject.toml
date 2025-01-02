@@ -18,13 +18,8 @@ dependencies = [
     "pygraphviz",
 ]
 
-[project.optional-dependencies]
-tests = [
-    "pytest",
-]
+[project.scripts]
+rfc-browser = "rfc_browser.cli:main"
 
-[tool.pytest.ini_options]
-minversion = "3.0"
-testpaths = [
-    "tests",
-]
+[tool.setuptools.packages.find]
+where = ["rfc_browser"]
