@@ -1,0 +1,540 @@
+strict digraph "" {
+	node [label="\N"];
+	RFC1637	[URL="https://www.rfc-editor.org/info/rfc1637",
+		label="RFC1637
+EXPERIMENTAL",
+		shape=invhouse];
+	RFC1706	[URL="https://www.rfc-editor.org/info/rfc1706",
+		label="RFC1706
+HISTORIC",
+		shape=folder];
+	RFC1637 -> RFC1706	[style=dotted];
+	RFC1982	[URL="https://www.rfc-editor.org/info/rfc1982",
+		fillcolor=cornflowerblue,
+		label="RFC1982
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC4470	[URL="https://www.rfc-editor.org/info/rfc4470",
+		fillcolor=cornflowerblue,
+		label="RFC4470
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC3007	[URL="https://www.rfc-editor.org/info/rfc3007",
+		fillcolor=cornflowerblue,
+		label="RFC3007
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC6014	[URL="https://www.rfc-editor.org/info/rfc6014",
+		fillcolor=cornflowerblue,
+		label="RFC6014
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC9157	[URL="https://www.rfc-editor.org/info/rfc9157",
+		fillcolor=cornflowerblue,
+		label="RFC9157
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC6014 -> RFC9157;
+	RFC8499	[URL="https://www.rfc-editor.org/info/rfc8499",
+		label="RFC8499
+BEST PRACTICE",
+		shape=diamond];
+	RFC9499	[URL="https://www.rfc-editor.org/info/rfc9499",
+		label="RFC9499
+BEST PRACTICE",
+		shape=diamond];
+	RFC8499 -> RFC9499	[style=dotted];
+	RFC9619	[URL="https://www.rfc-editor.org/info/rfc9619",
+		fillcolor=cornflowerblue,
+		label="RFC9619
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC2137	[URL="https://www.rfc-editor.org/info/rfc2137",
+		fillcolor=cornflowerblue,
+		label="RFC2137
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC2137 -> RFC3007	[style=dotted];
+	RFC3425	[URL="https://www.rfc-editor.org/info/rfc3425",
+		fillcolor=cornflowerblue,
+		label="RFC3425
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC6840	[URL="https://www.rfc-editor.org/info/rfc6840",
+		fillcolor=cornflowerblue,
+		label="RFC6840
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC8749	[URL="https://www.rfc-editor.org/info/rfc8749",
+		fillcolor=cornflowerblue,
+		label="RFC8749
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC6840 -> RFC8749;
+	RFC6604	[URL="https://www.rfc-editor.org/info/rfc6604",
+		fillcolor=cornflowerblue,
+		label="RFC6604
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC3090	[URL="https://www.rfc-editor.org/info/rfc3090",
+		fillcolor=cornflowerblue,
+		label="RFC3090
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC3658	[URL="https://www.rfc-editor.org/info/rfc3658",
+		fillcolor=cornflowerblue,
+		label="RFC3658
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC3090 -> RFC3658;
+	RFC1035	[URL="https://www.rfc-editor.org/info/rfc1035",
+		fillcolor=darkorchid1,
+		label="RFC1035
+STD",
+		shape=box,
+		style=filled];
+	RFC1035 -> RFC1982;
+	RFC1035 -> RFC9619;
+	RFC1035 -> RFC2137;
+	RFC1035 -> RFC3425;
+	RFC1183	[URL="https://www.rfc-editor.org/info/rfc1183",
+		label="RFC1183
+EXPERIMENTAL",
+		shape=invhouse];
+	RFC1035 -> RFC1183;
+	RFC8482	[URL="https://www.rfc-editor.org/info/rfc8482",
+		fillcolor=cornflowerblue,
+		label="RFC8482
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC1035 -> RFC8482;
+	RFC1996	[URL="https://www.rfc-editor.org/info/rfc1996",
+		fillcolor=cornflowerblue,
+		label="RFC1996
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC1035 -> RFC1996;
+	RFC1348	[URL="https://www.rfc-editor.org/info/rfc1348",
+		label="RFC1348
+EXPERIMENTAL",
+		shape=invhouse];
+	RFC1035 -> RFC1348;
+	RFC1995	[URL="https://www.rfc-editor.org/info/rfc1995",
+		fillcolor=cornflowerblue,
+		label="RFC1995
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC1035 -> RFC1995;
+	RFC5966	[URL="https://www.rfc-editor.org/info/rfc5966",
+		fillcolor=cornflowerblue,
+		label="RFC5966
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC1035 -> RFC5966;
+	RFC2136	[URL="https://www.rfc-editor.org/info/rfc2136",
+		fillcolor=cornflowerblue,
+		label="RFC2136
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC1035 -> RFC2136;
+	RFC2181	[URL="https://www.rfc-editor.org/info/rfc2181",
+		fillcolor=cornflowerblue,
+		label="RFC2181
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC1035 -> RFC2181;
+	RFC1876	[URL="https://www.rfc-editor.org/info/rfc1876",
+		label="RFC1876
+EXPERIMENTAL",
+		shape=invhouse];
+	RFC1035 -> RFC1876;
+	RFC2845	[URL="https://www.rfc-editor.org/info/rfc2845",
+		fillcolor=cornflowerblue,
+		label="RFC2845
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC1035 -> RFC2845;
+	RFC5936	[URL="https://www.rfc-editor.org/info/rfc5936",
+		fillcolor=cornflowerblue,
+		label="RFC5936
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC1035 -> RFC5936;
+	RFC2308	[URL="https://www.rfc-editor.org/info/rfc2308",
+		fillcolor=cornflowerblue,
+		label="RFC2308
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC1035 -> RFC2308;
+	RFC2673	[URL="https://www.rfc-editor.org/info/rfc2673",
+		label="RFC2673
+HISTORIC",
+		shape=folder];
+	RFC1035 -> RFC2673;
+	RFC1101	[URL="https://www.rfc-editor.org/info/rfc1101",
+		label="RFC1101
+UNKNOWN",
+		shape=plaintext];
+	RFC1035 -> RFC1101;
+	RFC2065	[URL="https://www.rfc-editor.org/info/rfc2065",
+		fillcolor=cornflowerblue,
+		label="RFC2065
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC1035 -> RFC2065;
+	RFC5864	[URL="https://www.rfc-editor.org/info/rfc5864",
+		fillcolor=cornflowerblue,
+		label="RFC5864
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC1183 -> RFC5864;
+	RFC5395	[URL="https://www.rfc-editor.org/info/rfc5395",
+		label="RFC5395
+BEST PRACTICE",
+		shape=diamond];
+	RFC1183 -> RFC5395;
+	RFC2535	[URL="https://www.rfc-editor.org/info/rfc2535",
+		fillcolor=cornflowerblue,
+		label="RFC2535
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC2535 -> RFC3007;
+	RFC2535 -> RFC3090;
+	RFC3655	[URL="https://www.rfc-editor.org/info/rfc3655",
+		fillcolor=cornflowerblue,
+		label="RFC3655
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC2535 -> RFC3655;
+	RFC3226	[URL="https://www.rfc-editor.org/info/rfc3226",
+		fillcolor=cornflowerblue,
+		label="RFC3226
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC2535 -> RFC3226;
+	RFC2931	[URL="https://www.rfc-editor.org/info/rfc2931",
+		fillcolor=cornflowerblue,
+		label="RFC2931
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC2535 -> RFC2931;
+	RFC3008	[URL="https://www.rfc-editor.org/info/rfc3008",
+		fillcolor=cornflowerblue,
+		label="RFC3008
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC2535 -> RFC3008;
+	RFC3445	[URL="https://www.rfc-editor.org/info/rfc3445",
+		fillcolor=cornflowerblue,
+		label="RFC3445
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC2535 -> RFC3445;
+	RFC3597	[URL="https://www.rfc-editor.org/info/rfc3597",
+		fillcolor=cornflowerblue,
+		label="RFC3597
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC2535 -> RFC3597;
+	RFC3755	[URL="https://www.rfc-editor.org/info/rfc3755",
+		fillcolor=cornflowerblue,
+		label="RFC3755
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC3658 -> RFC3755;
+	RFC4034	[URL="https://www.rfc-editor.org/info/rfc4034",
+		fillcolor=cornflowerblue,
+		label="RFC4034
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC3655 -> RFC4034	[style=dotted];
+	RFC4033	[URL="https://www.rfc-editor.org/info/rfc4033",
+		fillcolor=cornflowerblue,
+		label="RFC4033
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC3655 -> RFC4033	[style=dotted];
+	RFC4035	[URL="https://www.rfc-editor.org/info/rfc4035",
+		fillcolor=cornflowerblue,
+		label="RFC4035
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC3655 -> RFC4035	[style=dotted];
+	RFC5890	[URL="https://www.rfc-editor.org/info/rfc5890",
+		fillcolor=cornflowerblue,
+		label="RFC5890
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC3226 -> RFC4034;
+	RFC3226 -> RFC4033;
+	RFC3226 -> RFC4035;
+	RFC8490	[URL="https://www.rfc-editor.org/info/rfc8490",
+		fillcolor=cornflowerblue,
+		label="RFC8490
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC1348 -> RFC1637	[style=dotted];
+	RFC9103	[URL="https://www.rfc-editor.org/info/rfc9103",
+		fillcolor=cornflowerblue,
+		label="RFC9103
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC4635	[URL="https://www.rfc-editor.org/info/rfc4635",
+		fillcolor=cornflowerblue,
+		label="RFC4635
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC8945	[URL="https://www.rfc-editor.org/info/rfc8945",
+		fillcolor=darkorchid1,
+		label="RFC8945
+STD",
+		shape=box,
+		style=filled];
+	RFC4635 -> RFC8945	[style=dotted];
+	RFC8767	[URL="https://www.rfc-editor.org/info/rfc8767",
+		fillcolor=cornflowerblue,
+		label="RFC8767
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC4034 -> RFC4470;
+	RFC4034 -> RFC6014;
+	RFC4034 -> RFC6840;
+	RFC6944	[URL="https://www.rfc-editor.org/info/rfc6944",
+		fillcolor=cornflowerblue,
+		label="RFC6944
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC4034 -> RFC6944;
+	RFC9077	[URL="https://www.rfc-editor.org/info/rfc9077",
+		fillcolor=cornflowerblue,
+		label="RFC9077
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC4034 -> RFC9077;
+	RFC1995 -> RFC9103;
+	RFC3008 -> RFC3658;
+	RFC8553	[URL="https://www.rfc-editor.org/info/rfc8553",
+		label="RFC8553
+BEST PRACTICE",
+		shape=diamond];
+	RFC6672	[URL="https://www.rfc-editor.org/info/rfc6672",
+		fillcolor=cornflowerblue,
+		label="RFC6672
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC7766	[URL="https://www.rfc-editor.org/info/rfc7766",
+		fillcolor=cornflowerblue,
+		label="RFC7766
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC5966 -> RFC7766	[style=dotted];
+	RFC9121	[URL="https://www.rfc-editor.org/info/rfc9121",
+		label="RFC9121
+INFO",
+		shape=cds];
+	RFC4343	[URL="https://www.rfc-editor.org/info/rfc4343",
+		fillcolor=cornflowerblue,
+		label="RFC4343
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC4343 -> RFC5890;
+	RFC7766 -> RFC8490;
+	RFC7766 -> RFC9103;
+	RFC4592	[URL="https://www.rfc-editor.org/info/rfc4592",
+		fillcolor=cornflowerblue,
+		label="RFC4592
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC8624	[URL="https://www.rfc-editor.org/info/rfc8624",
+		fillcolor=cornflowerblue,
+		label="RFC8624
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC8624 -> RFC9157;
+	RFC5452	[URL="https://www.rfc-editor.org/info/rfc5452",
+		fillcolor=cornflowerblue,
+		label="RFC5452
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC3757	[URL="https://www.rfc-editor.org/info/rfc3757",
+		fillcolor=cornflowerblue,
+		label="RFC3757
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC3757 -> RFC4034	[style=dotted];
+	RFC3757 -> RFC4033	[style=dotted];
+	RFC3757 -> RFC4035	[style=dotted];
+	RFC3645	[URL="https://www.rfc-editor.org/info/rfc3645",
+		fillcolor=cornflowerblue,
+		label="RFC3645
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC4033 -> RFC6014;
+	RFC4033 -> RFC6840;
+	RFC2136 -> RFC3007;
+	RFC2136 -> RFC4034;
+	RFC2136 -> RFC4033;
+	RFC2136 -> RFC4035;
+	RFC5864 -> RFC8553;
+	RFC2181 -> RFC2535;
+	RFC2181 -> RFC8767;
+	RFC2181 -> RFC4343;
+	RFC2181 -> RFC5452;
+	RFC9471	[URL="https://www.rfc-editor.org/info/rfc9471",
+		fillcolor=cornflowerblue,
+		label="RFC9471
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC8020	[URL="https://www.rfc-editor.org/info/rfc8020",
+		fillcolor=cornflowerblue,
+		label="RFC8020
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC1034	[URL="https://www.rfc-editor.org/info/rfc1034",
+		fillcolor=darkorchid1,
+		label="RFC1034
+STD",
+		shape=box,
+		style=filled];
+	RFC1034 -> RFC1982;
+	RFC1034 -> RFC1183;
+	RFC1034 -> RFC8482;
+	RFC1034 -> RFC1348;
+	RFC1034 -> RFC4592;
+	RFC1034 -> RFC2181;
+	RFC1034 -> RFC9471;
+	RFC1034 -> RFC1876;
+	RFC1034 -> RFC5936;
+	RFC1034 -> RFC2308;
+	RFC1034 -> RFC1101;
+	RFC1034 -> RFC2065;
+	RFC6195	[URL="https://www.rfc-editor.org/info/rfc6195",
+		label="RFC6195
+BEST PRACTICE",
+		shape=diamond];
+	RFC5395 -> RFC6195	[style=dotted];
+	RFC6895	[URL="https://www.rfc-editor.org/info/rfc6895",
+		label="RFC6895
+BEST PRACTICE",
+		shape=diamond];
+	RFC2845 -> RFC4635;
+	RFC2845 -> RFC3645;
+	RFC2845 -> RFC6895;
+	RFC5936 -> RFC9103;
+	RFC8198	[URL="https://www.rfc-editor.org/info/rfc8198",
+		fillcolor=cornflowerblue,
+		label="RFC8198
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC8198 -> RFC9077;
+	RFC6944 -> RFC8624	[style=dotted];
+	RFC2308 -> RFC8499;
+	RFC2308 -> RFC6604;
+	RFC2308 -> RFC4034;
+	RFC2308 -> RFC4033;
+	RFC2308 -> RFC8020;
+	RFC2308 -> RFC4035;
+	RFC6891	[URL="https://www.rfc-editor.org/info/rfc6891",
+		fillcolor=darkorchid1,
+		label="RFC6891
+STD",
+		shape=box,
+		style=filled];
+	RFC2673 -> RFC6891	[style=dotted];
+	RFC3364	[URL="https://www.rfc-editor.org/info/rfc3364",
+		label="RFC3364
+INFO",
+		shape=cds];
+	RFC2673 -> RFC3364;
+	RFC3363	[URL="https://www.rfc-editor.org/info/rfc3363",
+		label="RFC3363
+INFO",
+		shape=cds];
+	RFC2673 -> RFC3363;
+	RFC3445 -> RFC4034	[style=dotted];
+	RFC3445 -> RFC4033	[style=dotted];
+	RFC3445 -> RFC4035	[style=dotted];
+	RFC3845	[URL="https://www.rfc-editor.org/info/rfc3845",
+		fillcolor=cornflowerblue,
+		label="RFC3845
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC3845 -> RFC4034	[style=dotted];
+	RFC3845 -> RFC4033	[style=dotted];
+	RFC3845 -> RFC4035	[style=dotted];
+	RFC3597 -> RFC4034;
+	RFC3597 -> RFC4033;
+	RFC3597 -> RFC5395;
+	RFC3597 -> RFC4035;
+	RFC9520	[URL="https://www.rfc-editor.org/info/rfc9520",
+		fillcolor=cornflowerblue,
+		label="RFC9520
+PROPOSED",
+		shape=ellipse,
+		style=filled];
+	RFC4035 -> RFC4470;
+	RFC4035 -> RFC6014;
+	RFC4035 -> RFC6840;
+	RFC4035 -> RFC8198;
+	RFC4035 -> RFC9520;
+	RFC6195 -> RFC6895	[style=dotted];
+	RFC3755 -> RFC3757;
+	RFC3755 -> RFC3845;
+	RFC1706 -> RFC9121;
+	RFC2065 -> RFC2535	[style=dotted];
+	RFC3363 -> RFC6672;
+}
