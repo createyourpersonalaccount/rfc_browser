@@ -22,4 +22,4 @@ dependencies = [
 rfc-browser = "rfc_browser.cli:main"
 
 [tool.setuptools.packages.find]
-where = ["rfc_browser"]
+where = ["."]
