@@ -1,1 +1,1 @@
-include rfc_browser/rfc-index.xml
+include rfc_browser/data/*.xml

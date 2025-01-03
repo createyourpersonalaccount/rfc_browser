@@ -100,7 +100,7 @@ def write_cyjs(g, filename):
 
 
 def produce_svg(rfc_list, full):
-    rfc_index = files("rfc_browser").joinpath("rfc-index.xml")
+    rfc_index = files("rfc_browser.data").joinpath("rfc-index.xml")
     tree = ET.parse(rfc_index)
     root = tree.getroot()
 
