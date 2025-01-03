@@ -8,7 +8,7 @@ def parse_rfc_name(s):
         s = s[3:]
     if not s.isdigit():
         return None
-    return "RFC" + s
+    return "RFC%.4d" % int(s)
 
 
 class ParseRFCName(argparse.Action):
